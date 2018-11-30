@@ -1,0 +1,23 @@
+table, td, th {
+    border: 3px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-color: grey;
+    border-spacing: 5px;
+    caption-side: top;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+tr:nth-child(even){background-color: #AFEEEE}
+
+th {
+    background-color: #00BFFF;
+    color: white;
+}
